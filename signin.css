@@ -1,0 +1,17 @@
+body{
+    background-image:  url('bg.jpg');
+    background-repeat: no-repeat;
+  background-size: cover;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    font-size: 1.6em;
+}
+
+.div1,.div2{
+    display: flex;
+}
